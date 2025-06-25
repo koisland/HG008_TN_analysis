@@ -1,0 +1,6 @@
+renv/
+.Rdata
+.Rhistory
+.Rprofile
+*.Rproj
+*.Rproj.user/

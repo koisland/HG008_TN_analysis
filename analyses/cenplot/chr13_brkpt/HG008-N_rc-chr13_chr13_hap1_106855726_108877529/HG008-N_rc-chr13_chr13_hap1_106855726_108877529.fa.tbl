@@ -1,0 +1,50 @@
+==================================================
+file name: HG008-N_rc-chr13_chr13_hap1_106855726_108877529.fa
+sequences:             1
+total length:    1021802 bp  (1021802 bp excl N/X-runs)
+GC level:         51.42 %
+bases masked:     354276 bp ( 34.67 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+SINEs:              407       100371 bp    9.82 %
+      ALUs          331        91419 bp    8.95 %
+      MIRs           76         8952 bp    0.88 %
+
+LINEs:              224       123838 bp   12.12 %
+      LINE1         172       115142 bp   11.27 %
+      LINE2          44         6432 bp    0.63 %
+      L3/CR1          6         1027 bp    0.10 %
+
+LTR elements:       142        70834 bp    6.93 %
+      ERVL           18         7423 bp    0.73 %
+      ERVL-MaLRs     46        13985 bp    1.37 %
+      ERV_classI     71        45514 bp    4.45 %
+      ERV_classII     4         3540 bp    0.35 %
+
+DNA elements:        92        22135 bp    2.17 %
+     hAT-Charlie     51         9981 bp    0.98 %
+     TcMar-Tigger    30         9996 bp    0.98 %
+
+Unclassified:        21         2165 bp    0.21 %
+
+Total interspersed repeats:   319343 bp   31.25 %
+
+
+Small RNA:           17         1148 bp    0.11 %
+
+Satellites:           2         1844 bp    0.18 %
+Simple repeats:     162        29135 bp    2.85 %
+Low complexity:      28         2806 bp    0.27 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be homo sapiens  
+RepeatMasker Combined Database: Dfam_3.1
+                                         
+run with rmblastn version 2.14.1+
+

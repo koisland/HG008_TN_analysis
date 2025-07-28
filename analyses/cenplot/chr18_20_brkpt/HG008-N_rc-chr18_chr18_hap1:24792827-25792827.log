@@ -1,0 +1,72 @@
+[modkit-logging/src/lib.rs::69][2025-07-26 23:26:14][DEBUG] command line: modkit pileup --region HG008-N_rc-chr18_chr18_hap1:24792827-25792827 /project/logsdon_shared/projects/GIAB_HG008_TN/results/8-cdr_finder/aln/HG008-N.bam HG008-N_rc-chr18_chr18_hap1:24792827-25792827_methyl.bed --cpg --ref /project/logsdon_shared/projects/GIAB_HG008_TN/results/2-concat_asm/HG008-N-asm-renamed-reort.fa --threads 32 --log-filepath HG008-N_rc-chr18_chr18_hap1:24792827-25792827.log
+[modkit-core/src/pileup/subcommand.rs::412][2025-07-26 23:26:14][INFO] parsing region HG008-N_rc-chr18_chr18_hap1:24792827-25792827
+[modkit-core/src/command_utils.rs::295][2025-07-26 23:26:14][INFO] calculated chunk size: 48, interval size 100000, processing 4800000 positions concurrently
+[modkit-core/src/pileup/subcommand.rs::536][2025-07-26 23:26:14][INFO] filtering to only CpG motifs
+[modkit-core/src/command_utils.rs::102][2025-07-26 23:26:14][INFO] attempting to sample 10042 reads
+[modkit-core/src/reads_sampler/mod.rs::49][2025-07-26 23:26:14][DEBUG] found BAM index, sampling reads in 1000000 base pair chunks
+[modkit-core/src/reads_sampler/sampling_schedule.rs::261][2025-07-26 23:26:14][DEBUG] removed 0 contigs from schedule with <= 1 reads
+[modkit-core/src/reads_sampler/sampling_schedule.rs::141][2025-07-26 23:26:14][DEBUG] derived sampling schedule, sampling total 10042 reads from 1 contig, 0 unmapped reads
+[modkit-core/src/reads_sampler/sampling_schedule.rs::164][2025-07-26 23:26:14][DEBUG] schedule
+ chrom  count/frac 
+ 1      10042 
+
+[modkit-core/src/interval_chunks.rs::526][2025-07-26 23:26:14][DEBUG] there is a single contig to work on (in 1 parts)
+[modkit-core/src/interval_chunks.rs::558][2025-07-26 23:26:14][DEBUG] no more records to process
+[modkit-core/src/reads_sampler/mod.rs::390][2025-07-26 23:26:17][DEBUG] final mapped reads sampled:
+ 1      959 
+ total  959 
+
+[modkit-core/src/reads_sampler/mod.rs::126][2025-07-26 23:26:17][DEBUG] sampled 959 records
+[modkit-core/src/command_utils.rs::123][2025-07-26 23:26:17][DEBUG] estimated pass threshold 0.8046875 for primary sequence base C
+[modkit-core/src/pileup/subcommand.rs::655][2025-07-26 23:26:17][INFO] Using filter threshold 0.8046875 for C.
+[modkit-core/src/interval_chunks.rs::526][2025-07-26 23:26:17][DEBUG] there is a single contig to work on (in 1 parts)
+[modkit-core/src/interval_chunks.rs::558][2025-07-26 23:26:17][DEBUG] no more records to process
+[modkit-core/src/pileup/subcommand.rs::812][2025-07-26 23:26:18][INFO] Done, processed 26438 rows. Processed ~1083 reads and skipped zero reads.
+[modkit-logging/src/lib.rs::69][2025-07-26 23:30:13][DEBUG] command line: modkit pileup --region HG008-N_rc-chr18_chr18_hap1:24792827-25792827 /project/logsdon_shared/projects/GIAB_HG008_TN/results/8-cdr_finder/aln/HG008-N.bam HG008-N_rc-chr18_chr18_hap1:24792827-25792827_methyl.bed --cpg --ref /project/logsdon_shared/projects/GIAB_HG008_TN/results/2-concat_asm/HG008-N-asm-renamed-reort.fa --threads 32 --log-filepath HG008-N_rc-chr18_chr18_hap1:24792827-25792827.log
+[modkit-core/src/pileup/subcommand.rs::412][2025-07-26 23:30:14][INFO] parsing region HG008-N_rc-chr18_chr18_hap1:24792827-25792827
+[modkit-core/src/command_utils.rs::295][2025-07-26 23:30:14][INFO] calculated chunk size: 48, interval size 100000, processing 4800000 positions concurrently
+[modkit-core/src/pileup/subcommand.rs::536][2025-07-26 23:30:14][INFO] filtering to only CpG motifs
+[modkit-core/src/command_utils.rs::102][2025-07-26 23:30:14][INFO] attempting to sample 10042 reads
+[modkit-core/src/reads_sampler/mod.rs::49][2025-07-26 23:30:14][DEBUG] found BAM index, sampling reads in 1000000 base pair chunks
+[modkit-core/src/reads_sampler/sampling_schedule.rs::261][2025-07-26 23:30:14][DEBUG] removed 0 contigs from schedule with <= 1 reads
+[modkit-core/src/reads_sampler/sampling_schedule.rs::141][2025-07-26 23:30:14][DEBUG] derived sampling schedule, sampling total 10042 reads from 1 contig, 0 unmapped reads
+[modkit-core/src/reads_sampler/sampling_schedule.rs::164][2025-07-26 23:30:14][DEBUG] schedule
+ chrom  count/frac 
+ 1      10042 
+
+[modkit-core/src/interval_chunks.rs::526][2025-07-26 23:30:14][DEBUG] there is a single contig to work on (in 1 parts)
+[modkit-core/src/interval_chunks.rs::558][2025-07-26 23:30:14][DEBUG] no more records to process
+[modkit-core/src/reads_sampler/mod.rs::390][2025-07-26 23:30:16][DEBUG] final mapped reads sampled:
+ 1      959 
+ total  959 
+
+[modkit-core/src/reads_sampler/mod.rs::126][2025-07-26 23:30:17][DEBUG] sampled 959 records
+[modkit-core/src/command_utils.rs::123][2025-07-26 23:30:17][DEBUG] estimated pass threshold 0.8046875 for primary sequence base C
+[modkit-core/src/pileup/subcommand.rs::655][2025-07-26 23:30:17][INFO] Using filter threshold 0.8046875 for C.
+[modkit-core/src/interval_chunks.rs::526][2025-07-26 23:30:17][DEBUG] there is a single contig to work on (in 1 parts)
+[modkit-core/src/interval_chunks.rs::558][2025-07-26 23:30:17][DEBUG] no more records to process
+[modkit-core/src/pileup/subcommand.rs::812][2025-07-26 23:30:18][INFO] Done, processed 26438 rows. Processed ~1083 reads and skipped zero reads.
+[modkit-logging/src/lib.rs::69][2025-07-26 23:30:27][DEBUG] command line: modkit pileup --region HG008-N_rc-chr18_chr18_hap1:24792827-25792827 /project/logsdon_shared/projects/GIAB_HG008_TN/results/8-cdr_finder/aln/HG008-N.bam HG008-N_rc-chr18_chr18_hap1:24792827-25792827_methyl.bed --cpg --ref /project/logsdon_shared/projects/GIAB_HG008_TN/results/2-concat_asm/HG008-N-asm-renamed-reort.fa --threads 32 --log-filepath HG008-N_rc-chr18_chr18_hap1:24792827-25792827.log
+[modkit-core/src/pileup/subcommand.rs::412][2025-07-26 23:30:27][INFO] parsing region HG008-N_rc-chr18_chr18_hap1:24792827-25792827
+[modkit-core/src/command_utils.rs::295][2025-07-26 23:30:27][INFO] calculated chunk size: 48, interval size 100000, processing 4800000 positions concurrently
+[modkit-core/src/pileup/subcommand.rs::536][2025-07-26 23:30:27][INFO] filtering to only CpG motifs
+[modkit-core/src/command_utils.rs::102][2025-07-26 23:30:27][INFO] attempting to sample 10042 reads
+[modkit-core/src/reads_sampler/mod.rs::49][2025-07-26 23:30:27][DEBUG] found BAM index, sampling reads in 1000000 base pair chunks
+[modkit-core/src/reads_sampler/sampling_schedule.rs::261][2025-07-26 23:30:27][DEBUG] removed 0 contigs from schedule with <= 1 reads
+[modkit-core/src/reads_sampler/sampling_schedule.rs::141][2025-07-26 23:30:27][DEBUG] derived sampling schedule, sampling total 10042 reads from 1 contig, 0 unmapped reads
+[modkit-core/src/reads_sampler/sampling_schedule.rs::164][2025-07-26 23:30:27][DEBUG] schedule
+ chrom  count/frac 
+ 1      10042 
+
+[modkit-core/src/interval_chunks.rs::526][2025-07-26 23:30:27][DEBUG] there is a single contig to work on (in 1 parts)
+[modkit-core/src/interval_chunks.rs::558][2025-07-26 23:30:27][DEBUG] no more records to process
+[modkit-core/src/reads_sampler/mod.rs::390][2025-07-26 23:30:30][DEBUG] final mapped reads sampled:
+ 1      959 
+ total  959 
+
+[modkit-core/src/reads_sampler/mod.rs::126][2025-07-26 23:30:30][DEBUG] sampled 959 records
+[modkit-core/src/command_utils.rs::123][2025-07-26 23:30:30][DEBUG] estimated pass threshold 0.8046875 for primary sequence base C
+[modkit-core/src/pileup/subcommand.rs::655][2025-07-26 23:30:30][INFO] Using filter threshold 0.8046875 for C.
+[modkit-core/src/interval_chunks.rs::526][2025-07-26 23:30:30][DEBUG] there is a single contig to work on (in 1 parts)
+[modkit-core/src/interval_chunks.rs::558][2025-07-26 23:30:30][DEBUG] no more records to process
+[modkit-core/src/pileup/subcommand.rs::812][2025-07-26 23:30:31][INFO] Done, processed 26438 rows. Processed ~1083 reads and skipped zero reads.

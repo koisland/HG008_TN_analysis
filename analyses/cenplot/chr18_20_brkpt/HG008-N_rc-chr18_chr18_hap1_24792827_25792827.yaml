@@ -1,0 +1,42 @@
+settings:
+  axis_h_pad: 0.05
+  dim:
+  - 16.0
+  - 8.0
+  dpi: 600
+  format:
+  - png
+  - pdf
+  layout: constrained
+  title: '{chrom}'
+  transparent: false
+tracks:
+- options:
+    hide_x: true
+    ymax: 100.0
+  path: /project/logsdon_shared/projects/GIAB_HG008_TN/exp/repeatmasker/chr18_20_brkpt/HG008-N_rc-chr18_chr18_hap1:24792827-25792827_avg_methyl.bedgraph
+  position: relative
+  proportion: 0.1
+  title: 'Mean CpG
+
+    methylation
+
+    (%)'
+  type: bar
+- options:
+    hide_x: true
+    legend: false
+    bg_border: true
+  path: /project/logsdon_shared/projects/GIAB_HG008_TN/exp/repeatmasker/chr18_20_brkpt/HG008-N_rc-chr18_chr18_hap1_24792827_25792827_rm_sat_annot.bed
+  position: relative
+  proportion: 0.05
+  type: label
+- options:
+    hide_x: false
+    invert: true
+    legend: true
+    legend_asp_ratio: 1.0
+  path: /project/logsdon_shared/projects/GIAB_HG008_TN/exp/repeatmasker/chr18_20_brkpt/HG008-N_rc-chr18_chr18_hap1_24792827_25792827_mdp/HG008-N_rc-chr18_hap1:24792828-25792827.bed
+  position: relative
+  proportion: 0.7
+  type: selfident

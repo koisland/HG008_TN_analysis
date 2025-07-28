@@ -1,0 +1,42 @@
+settings:
+  axis_h_pad: 0.05
+  dim:
+  - 16.0
+  - 8.0
+  dpi: 600
+  format:
+  - png
+  - pdf
+  layout: constrained
+  title: '{chrom}'
+  transparent: false
+tracks:
+- options:
+    hide_x: true
+    ymax: 100.0
+  path: "~methyl"
+  position: relative
+  proportion: 0.1
+  title: 'Mean CpG
+
+    methylation
+
+    (%)'
+  type: bar
+- options:
+    hide_x: true
+    legend: false
+    bg_border: true
+  path: "~rm"
+  position: relative
+  proportion: 0.05
+  type: label
+- options:
+    hide_x: false
+    invert: true
+    legend: true
+    legend_asp_ratio: 1.0
+  path: "~ident"
+  position: relative
+  proportion: 0.7
+  type: selfident

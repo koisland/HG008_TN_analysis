@@ -1,0 +1,50 @@
+==================================================
+file name: HG008-N_chr19_chr19_hap2:39960000-42420000.fa
+sequences:             1
+total length:    2460000 bp  (2460000 bp excl N/X-runs)
+GC level:         48.22 %
+bases masked:    1461864 bp ( 59.43 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+SINEs:             2914       755028 bp   30.69 %
+      ALUs         2433       679443 bp   27.62 %
+      MIRs          479        75467 bp    3.07 %
+
+LINEs:              813       396856 bp   16.13 %
+      LINE1         453       283552 bp   11.53 %
+      LINE2         348       111857 bp    4.55 %
+      L3/CR1         11         1334 bp    0.05 %
+
+LTR elements:       338       162093 bp    6.59 %
+      ERVL           64        27189 bp    1.11 %
+      ERVL-MaLRs    156        57456 bp    2.34 %
+      ERV_classI     92        53055 bp    2.16 %
+      ERV_classII    18        22527 bp    0.92 %
+
+DNA elements:       306        67085 bp    2.73 %
+     hAT-Charlie    183        32831 bp    1.33 %
+     TcMar-Tigger    54        22551 bp    0.92 %
+
+Unclassified:       140        18812 bp    0.76 %
+
+Total interspersed repeats:  1399874 bp   56.91 %
+
+
+Small RNA:          140         8651 bp    0.35 %
+
+Satellites:          20        13674 bp    0.56 %
+Simple repeats:     605        31203 bp    1.27 %
+Low complexity:     127         8327 bp    0.34 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be homo sapiens  
+RepeatMasker Combined Database: Dfam_3.1
+                                         
+run with rmblastn version 2.14.1+
+

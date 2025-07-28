@@ -14,11 +14,12 @@
 ## `plots`
 * [`SVbyEye`](https://github.com/daewoooo/SVbyEye) plots.
 
+Restore project dependencies with `renv`.
 ```R
 renv::init()
-renv::restore()
 ```
 
+Runs script in project directory.
 ```bash
 Rscript plot_tn.R
 ```

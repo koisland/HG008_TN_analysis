@@ -1,5 +1,5 @@
 renv/
-.Rdata
+.RData
 .Rhistory
 .Rprofile
 *.Rproj

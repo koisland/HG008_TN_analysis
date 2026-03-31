@@ -1,0 +1,21 @@
+name: r_env
+channels:
+    - conda-forge
+    - bioconda
+dependencies:
+    - r-base=4.3.0
+    - r-devtools
+    - r-optparse
+    - r-remotes
+    - r-rcpp
+    - r-ggplot2
+    - r-dplyr
+    - r-readr
+    - r-stringr
+    - r-ggnewscale
+    - r-remotes
+    - r-gggenes
+    - bioconductor-bsgenome
+    - bioconductor-genomicalignments
+    - bioconductor-rtracklayer
+    - r-randomcolor

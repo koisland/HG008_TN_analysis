@@ -1,0 +1,11 @@
+[submodule "workflow/rules/Snakemake-NucFlag"]
+	path = workflow/rules/Snakemake-NucFlag
+	url = https://github.com/logsdon-lab/Snakemake-NucFlag.git
+	branch = "feature/nucflag-v1.0"
+	
+[submodule "workflow/rules/asm-to-reference-alignment"]
+	path = workflow/rules/asm-to-reference-alignment
+	url = git@github.com:koisland/asm-to-reference-alignment.git
+[submodule "workflow/scripts/annotaligner"]
+	path = workflow/scripts/annotaligner
+	url = git@github.com:fedorrik/annotaligner.git

@@ -5,3 +5,11 @@ renv/
 *.Rproj
 *.Rproj.user/
 .Rproj.user
+logs/
+results*
+.snakemake
+moved
+benchmarks
+outputs
+.cache
+exp

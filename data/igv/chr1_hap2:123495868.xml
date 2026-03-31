@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/home/keith/Downloads/tmp/HG008N_v6.3.fasta" locus="chr1_hap2:123433775-123675194" nextAutoscaleGroup="2" version="8">
+    <Resources>
+        <Resource path="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam" type="bam"/>
+        <Resource path="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam" type="bam"/>
+    </Resources>
+    <Panel height="1036" name="Panel1773253632150" width="1668">
+        <Track attributeKey="HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam_coverage" name="HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="69.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam_junctions" maxdepth="50" name="HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam Junctions" visible="false"/>
+        <Track attributeKey="HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam" name="HG008-T_PacBio-HiFi-Revio_20240313_106x_to_HG008N_v6.3.bam" visible="true">
+            <RenderOptions duplicatesOption="FILTER" groupByOption="NONE" hideSmallIndels="true" linkedReads="false" showMismatches="true" smallIndelThreshold="2"/>
+        </Track>
+    </Panel>
+    <Panel height="454" name="Panel1773253663265" width="1668">
+        <Track attributeKey="HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam_coverage" name="HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="27.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam_junctions" maxdepth="50" name="HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam Junctions" visible="false"/>
+        <Track attributeKey="HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://nist-giab.s3.us-east-1.amazonaws.com/giab_tumor-normal/analysis/HG008/NIST_asm_dev/HG008N_v6.3/HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam" name="HG008-T_dorodo1.0.2_all_CpGonly_to_HG008_N_v6.3.bam" visible="true">
+            <RenderOptions colorOption="READ_STRAND" duplicatesOption="FILTER" hideSmallIndels="true" smallIndelThreshold="10" sortOption="START"/>
+        </Track>
+    </Panel>
+    <Panel height="99" name="FeaturePanel" width="1668">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.005865102639296188,0.4496578690127077,0.8983382209188661"/>
+    <Regions>
+        <Region chromosome="chr10_hap1" end="43301734" start="38022595"/>
+        <Region chromosome="chr10_hap2" end="43000468" start="38123220"/>
+        <Region chromosome="chr11_hap1" end="55430683" start="47779581"/>
+        <Region chromosome="chr11_hap2" end="56017175" start="47808214"/>
+        <Region chromosome="chr12_hap1" end="39423568" start="33324169"/>
+        <Region chromosome="chr12_hap2" end="39590710" start="33572386"/>
+        <Region chromosome="chr13_hap1" end="12706455" start="3435155"/>
+        <Region chromosome="chr13_hap2" end="10779066" start="75186"/>
+        <Region chromosome="chr14_hap1" end="12024983" start="5365519"/>
+        <Region chromosome="chr14_hap2" end="14380946" start="3375742"/>
+        <Region chromosome="chr15_hap1" end="14611944" start="8020656"/>
+        <Region chromosome="chr15_hap2" end="14924745" start="8012669"/>
+        <Region chromosome="chr16_hap1" end="40548429" start="32157769"/>
+        <Region chromosome="chr16_hap2" end="39137795" start="31994002"/>
+        <Region chromosome="chr17_hap1" end="27442345" start="21854336"/>
+        <Region chromosome="chr17_hap2" end="26479722" start="21814171"/>
+        <Region chromosome="chr18_hap1" end="19266676" start="14396914"/>
+        <Region chromosome="chr18_hap2" end="22425052" start="14405696"/>
+        <Region chromosome="chr19_hap1" end="30732605" start="23195082"/>
+        <Region chromosome="chr19_hap2" end="30968386" start="23305245"/>
+        <Region chromosome="chr1_hap1" end="128026751" start="120587248"/>
+        <Region chromosome="chr1_hap2" end="128568393" start="120878184"/>
+        <Region chromosome="chr20_hap1" end="33394650" start="25321601"/>
+        <Region chromosome="chr20_hap2" end="33868345" start="25335991"/>
+        <Region chromosome="chr21_hap1" end="9919724" start="461003"/>
+        <Region chromosome="chr21_hap2" end="7263786" start="21888"/>
+        <Region chromosome="chr22_hap1" end="15796135" start="382359"/>
+        <Region chromosome="chr22_hap2" end="12566122" start="1"/>
+        <Region chromosome="chr2_hap1" end="95930688" start="91443327"/>
+        <Region chromosome="chr2_hap1" end="133541785" start="131503206"/>
+        <Region chromosome="chr2_hap2" end="95903853" start="91203529"/>
+        <Region chromosome="chr2_hap2" end="133554180" start="131512726"/>
+        <Region chromosome="chr3_hap1" end="97938638" start="89087047"/>
+        <Region chromosome="chr3_hap2" end="97478559" start="89352047"/>
+        <Region chromosome="chr4_hap1" end="55541767" start="48594005"/>
+        <Region chromosome="chr4_hap2" end="54576291" start="48126472"/>
+        <Region chromosome="chr5_hap1" end="52637647" start="45293547"/>
+        <Region chromosome="chr5_hap2" end="54038736" start="45257122"/>
+        <Region chromosome="chr6_hap1" end="63860288" start="57556436"/>
+        <Region chromosome="chr6_hap2" end="63230053" start="57299824"/>
+        <Region chromosome="chr7_hap1" end="66068724" start="57070826"/>
+        <Region chromosome="chr7_hap2" end="64850688" start="57312659"/>
+        <Region chromosome="chr8_hap1" end="47777011" start="42075194"/>
+        <Region chromosome="chr8_hap2" end="47585020" start="42089941"/>
+        <Region chromosome="chr9_hap1" end="48933542" start="39149105"/>
+        <Region chromosome="chr9_hap1" end="65231953" start="60563391"/>
+        <Region chromosome="chr9_hap2" end="48924406" start="39150325"/>
+        <Region chromosome="chr9_hap2" end="66557525" start="61872413"/>
+        <Region chromosome="chrX_hap1" end="62187171" start="56801859"/>
+        <Region chromosome="chrX_hap2" end="62345973" start="56633496"/>
+    </Regions>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

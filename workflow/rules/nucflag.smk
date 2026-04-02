@@ -166,6 +166,27 @@ rule breakdown_by_censat:
         """
 
 
+rule generate_unreliable_tsv:
+    input:
+        bed=rules.all_check_asm_nucflag.output.status,
+    output:
+        tsv=join(results_dir, "nucflag", "{sm}_unreliability.tsv"),
+    shell:
+        """
+        awk -v OFS="\\t" '{{
+            if (NR == 1) {{ next; }};
+            # Ignore correct and het_or_mismap
+            # Exclude scaffold in HG008-T chr19_chr22_hap2
+            if ($1 == "chr19_chr22_hap2" && "{wildcards.sm}" == "HG008-T_v3.2_hifi") {{
+                perc_unreliable = 1 - (($5 + $10 + $19) / 100);
+            }} else {{
+                perc_unreliable=1 - (($5 + $10) / 100);
+            }}
+            print $1, int($3 * perc_unreliable), $3
+        }}' {input.bed} > {output.tsv}
+        """
+
+
 rule nucflag_all:
     input:
         rules.all_nucflag.input,
@@ -177,6 +198,10 @@ rule nucflag_all:
             rules.generate_breakdown.output,
             sm=sample_versions.keys(),
             dtype=("hifi", "ont"),
+        ),
+        expand(
+            rules.generate_unreliable_tsv.output,
+            sm=[f"{sm}_{dtype}" for sm, dtype in SM_DTYPES if dtype == "hifi"]
         ),
         expand(
             rules.intersect_curated_tn_sv_calls_w_nucflag.output,

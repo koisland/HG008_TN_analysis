@@ -1,7 +1,5 @@
 # HG008-TN Analysis
 
-> WIP
-
 ## Usage
 
 ### Run CenMAP

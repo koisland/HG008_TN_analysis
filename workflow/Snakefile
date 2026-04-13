@@ -4,6 +4,7 @@ include: "rules/align.smk"
 include: "rules/moddotplot.smk"
 include: "rules/modkit.smk"
 include: "rules/nucflag.smk"
+include: "rules/breakpoints.smk"
 include: "rules/svbyeye.smk"
 
 rule all:
@@ -12,5 +13,6 @@ rule all:
         rules.align_all.input,
         rules.moddotplot_all.input,
         rules.svbyeye_all.input,
+        rules.breakpoints_all.input,
     default_target:
         True
